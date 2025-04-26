@@ -50,3 +50,22 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# 파이썬 캐시 파일 무시
+__pycache__/
+*.pyc
+
+# VSCode 설정 파일 무시
+.vscode/
+
+# Mac OS 시스템 파일 무시
+.DS_Store
+
+# 가상환경 무시
+venv/
+
+# node_modules 무시 (Node.js 프로젝트일 때)
+node_modules/
+
+# 환경 설정 파일 무시
+.env
